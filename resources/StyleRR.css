@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}  
+body{
+    background: #F7F6F6;
+}
+.tittle-page{
+    font-family: Formula1;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 2%;
+}
+.global-cont {
+    background: #fff;
+    width: 100% auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+    margin-top: 5%;
+}
+
+.result > table{
+    margin-top: 4%;
+    width: 100%;
+    background: #fff;
+    border-collapse:collapse; 
+    border:none;
+}
+.h{
+    color: #959595;
+    font-size: 70%;
+}
+td, th {
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #f8f8f8;
+}
+
+.bold{
+    font-weight: bold;
+}

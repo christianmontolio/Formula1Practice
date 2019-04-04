@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}   
+body{
+    background: #F7F6F6;
+}
+.tittle-page{
+    font-family: Formula1;
+    margin-left: 10%;
+    font-size: 45px;
+}
+.global-cont {
+    background: #fff;
+    width: 100% auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+
+.team{
+    width: 100%;
+    margin: 0%;
+    padding-bottom: 2%;
+}
+.team > img{
+    width: 100%;
+}
+.team > h1{
+    font-family: Formula1;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 250%;
+    margin-bottom: 0%;
+}
+.team > h2{
+    font-family: Formula1;
+    padding-left: 3%;
+    font-weight: bold;
+    font-size: 130%;
+}
+.team > p{
+    padding-left: 3%;
+    padding-right: 3%;
+    text-align: justify;
+    font-size: 100%;
+}
+.one{
+    background: #fff;
+    width: 50%;
+    float: left;
+    padding-top: 0%;
+}
+.promo > img{
+    margin-top: 0%;
+    padding-left: 5%;
+    padding-top: 2%; 
+    width: 45%;
+}
+.info{
+    padding-left: 5%;
+}
+.bold{
+    font-family: Formula1;
+    font-weight: bold;
+}
+.space{
+    padding-left: 20%;
+}
+.two{
+    background: #fff;
+    width: 50%;
+    height: 100%;
+    float: left; 
+    padding-top: 0%;
+    padding-bottom: 0%;
+}
+.pilot1{
+    background: gold;
+    width: 50%;
+    float: left;
+}
+.pilot2{
+    background: powderblue;
+    width: 50%;
+    float: left;
+}   
+.upper > img{
+    width: 100%;
+}
+.lower > h1{
+    font-family: Formula1;
+    font-weight: bold;
+    font-size: 350%;
+    margin: 0%;
+    padding-left: 10%;
+    padding-bottom: 0%;
+    padding-top: 5%;
+}
+.lower > h2{
+    font-family: Formula1;
+    font-weight: bold;
+    font-size: 161%;
+    margin: 0%;
+    padding-left: 10%;
+    padding-top: 10%;
+    padding-bottom: 0%;
+}
+.lower > p{
+    font-family: Formula1;
+    margin-top: 0%;
+    padding-top: 0%;
+    padding-left: 10%;
+    font-size: 80%;
+    color: #959595;
+    font-weight: bold;
+}
+
+.pilot1:hover, .pilot2:hover{
+    background-color: #F70101;   
+}
+a{
+    color: #000;
+    text-decoration: none;
+}

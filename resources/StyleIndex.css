@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+} 
+body{
+    background: #F7F6F6;
+}
+.tittle-page{
+    font-family: Formula1;
+    margin-left: 10%;
+}
+
+.teams{
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.team{
+    width: 80%;
+    margin: 0%;
+}
+/*DETALLES DEL EQUIPO*/
+.one{
+    background: #fff;
+    width: 50%;
+    float: left;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.one:hover{
+    background-color: #1B1A1A;
+    
+}
+.desc-1{
+    float: left;
+    width:50%;
+}
+
+.upper h1{
+    
+    font-weight: bold;
+    margin-bottom: 0%;  
+    padding-left: 8%;
+}
+.upper h1> img{
+    width: 10%;
+    border-radius: 15%;
+}
+.upper ul{
+    margin: 0%;
+    padding-left: 8%;
+}
+.upper li{
+    list-style: none;
+    font-weight: bold;
+    color: #959595;
+}
+.upper li>img{
+    width: 7%;
+}
+.lower img{
+    padding-left: 8%;
+    width: 40%;
+}
+.desc-2{
+    float: left;
+    width: 50%;
+}
+.result{
+    padding-top:10%; 
+    color: #959595;
+}
+
+.result tr > td > span{
+    padding-left: 4%;
+    padding-top: 0%;
+    margin-left: 0%;
+    font-weight: bold;
+    font-size: 18px;
+}
+.result tr> td> span > img{
+    width: 10%;
+}    
+.number{
+    font-weight: bold;
+    text-align: right;
+    font-size: 18px;
+}
+    
+/*IMAGEN*/
+.two{
+    width: 50%;
+    float: left;
+}
+.image > img{
+    width: 99.5%;
+    height: 304px;
+    padding-left: 0.5%;
+    padding-bottom: 0%;
+}
+#mercedes{
+    background: #22BDEC;
+}
+#ferrari{
+    background: #FF3333;
+}
+#redbull{
+    background: #0126E0;
+}
+#alfaromeo{
+    background: #7E1919;
+}
+#mcclaren{
+    background: #DE900A;
+}
+#hass{
+    background: #664F4F;
+}
+#renault{
+    background: #ECF92E;
+}
+#toro{
+    background: #4375D9;
+}
+#racing{
+    background: #F867E0;
+}
+#william{
+    background: #fff;
+}

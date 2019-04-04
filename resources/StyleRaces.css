@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}  
+body{
+    background: #F7F6F6;
+}
+.tittle-page{
+    font-family: Formula1;
+    margin-left: 8%;
+    font-size: 30px;
+}
+.global-cont {
+    background: rgb(26, 0, 99);
+    width: 100% auto;
+    margin-left: 8%;
+    margin-right: 8%;
+    margin-bottom: 10%;
+}
+.race{
+    width: 100%;
+    margin: 0%;
+    padding-bottom: 2%;
+}
+.one{
+    background: #fff;
+    width: 25%;
+    float: left;
+    padding-top: 0%;
+}
+.two{
+    background: #fff;
+    width: 25%;
+    float: left;
+    padding-top: 0%;
+}
+.three{
+    background: #fff;
+    width: 25%;
+    float: left;
+    padding-top: 0%;
+}
+.four{
+    background: #fff;
+    width: 25%;
+    float: left;
+    padding-top: 0%;
+}
+.sep{
+    margin-bottom: 100%;
+}
+#done{
+    background: rgb(187, 224, 245);
+}
+.upper > img{
+    width: 100%;
+}
+.lower > h2{
+    margin: 0%;
+    padding-left: 5%; 
+    padding-top: 3%;
+    padding-bottom: 5%;
+    color: #959595;
+    font-size: 100%;
+}
+.lower > h3{
+    font-family: formula1;
+    margin: 0%;
+    padding-left: 5%; 
+    font-size: 100%;
+}
+.lower >p {
+    padding-left: 5%; 
+    font-size: 80%;
+    font-weight: bold;
+}
+.lower > p > img{
+    width: 4%;
+}
+
+.one:hover, .two:hover, .three:hover, .four:hover{
+    background-color: #F70101;
+}
+a{
+    list-style: none;
+    color: black;
+}

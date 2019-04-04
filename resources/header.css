@@ -1,0 +1,101 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: "Titillium Web", Helvetica, sans-serif;
+    }
+
+html {
+  box-sizing: border-box;
+  -ms-overflow-style: scrollbar; 
+}
+
+.header {
+  background: #e10600;
+  overflow: auto;
+  position: relative;
+  z-index: 101; 
+}
+
+@media (min-width: 1024px) {
+  .header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 101;
+    display: block;
+    overflow: visible; }
+}
+@media (min-width: 1024px) {
+  .header .logo {
+    display: inline-block;
+    text-align: left;
+    padding: 0;
+    vertical-align: top; } 
+}
+.header .logo span {
+  height: 20px;
+  margin: 0%;
+  display: inline-block;
+  width: 80px; 
+}
+@media (min-width: 768px) {
+  .header .logo span {
+    height: 35px;
+    width: 130px;
+    margin: 19px 30px 12px; 
+  } 
+}
+@media (min-width: 1024px) {
+  .header .logo span {
+    width: 130px;
+   } 
+}
+.header .primary-links {
+    margin: 16px 0;
+    overflow: hidden;
+    font-size: 0;
+    display: block; 
+  }
+@media (min-width: 1024px) {
+  .header .primary-links {
+    margin: 0;
+    display: inline-block; } 
+  }
+  .header .primary-links > ul > li {
+    display: block;
+    list-style: none;
+    width: 100%;
+    font-size: 0; 
+  }
+
+@media (min-width: 1024px) {
+  .header .primary-links > ul > li {
+    display: inline-block;
+    float: none;
+    width: auto; 
+  }
+}
+.header .primary-links > ul > li .nav-mainlink {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  display: block;
+  padding: 5px 15px;
+  color: #ffffff;
+  position: relative;
+  line-height: 23px; 
+}
+@media (min-width: 1024px) {
+  .header .primary-links > ul > li .nav-mainlink {
+    font-size: 17px;
+    padding: 26px 8px 13px 13px;
+  }
+  .header .primary-links > ul > li .nav-mainlink:active, .header .primary-links > ul > li .nav-mainlink:focus, .header .primary-links > ul > li .nav-mainlink:hover {
+    background: #15151e;
+    transition: all 0.3s ease-out; 
+  }
+  .header .primary-links > ul > li .nav-mainlink .link-text {
+    display: inline-block;
+    padding: 0 10px 7px 0; 
+  }
+} 

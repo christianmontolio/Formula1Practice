@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Formula1';
+    src: url('../fuentes/Formula1-Regular_web_0.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}  
+body{
+    background: #F7F6F6;
+}
+.global-cont {
+    background: #fff;
+    width: 100% auto;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+}
+.pilot{
+    width: 100%;
+    margin: 0%;
+    padding-bottom: 2%;
+}
+
+.pilot > h1{
+    font-family: formula1;
+    font-size: 220%;
+    padding-top: 10%;
+    margin-top: 0%;
+    padding-left: 3.4%;  
+    
+}
+.pilot p{
+    padding-left: 4%;
+    padding-right: 4%;
+    text-align: justify;
+    font-size: 100%;
+}
+.one{
+    background: #fff;
+    width: 50%;
+    float: left;
+    padding-top: 0%;
+}
+.upper > img{
+    width: 16.5cm;
+    height: 11.70cm;
+}
+.lower > h1{
+    font-family: formula1;
+    font-size: 220%;
+    padding-left: 7%;  
+    padding-bottom: 0%;
+    margin-top: 1%;
+    margin-bottom: 4%;
+}
+.lower > h1 >img{
+    width: 7%;
+    border-radius: 10%;
+}
+.number{
+    color: #959595;
+}
+.two{
+    background: #fff;
+    width: 50%;
+    float: left;
+    padding-top: 0%;
+}
+.info1{
+    padding-top: 5%; 
+    padding-left: 3%;
+}
+.info1 > img{
+    width: 30%;
+}
+.info2{
+    padding-left: 8%;
+    padding-bottom: 25%;
+}
+.info2 table{
+    width: 100%;
+}
+.bold{
+    font-family: Formula1;
+    font-weight: bold;
+}
+.space{
+    padding-left: 20%;
+}
